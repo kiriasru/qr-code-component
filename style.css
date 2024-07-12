@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #D5E1EF;
 }
 
@@ -29,15 +29,15 @@ body {
 
 .heading-container, .paragraph-container {
     display: flex;
-    width: 288px;
+    max-width: 288px;
     justify-content: center;
 }
 
 .heading {
     color: #1F314F;
     font-weight: 700;
-    font-size: 20px;
-    width: 80%;
+    font-size: 1.2em;
+    max-width: 80%;
     text-align: center;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     margin-bottom: 15px;
@@ -47,7 +47,7 @@ body {
 .paragraph-container p {
     margin-top: 0;
     padding-top: 0;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
     color: #7D889E;
